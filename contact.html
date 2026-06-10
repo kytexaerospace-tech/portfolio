@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Kitex | Noida HQ & Secure Inquiry Portal</title>
+  <meta name="description" content="Reach out to Kitex Aero Defense Headquarters in Noida Sector 62. Submit secure tactical inquiries for military UAV procurements and programs.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Indian Tri-Color Banner at Very Top -->
+  <div class="tri-color-bar">
+    <div class="tri-color-saffron"></div>
+    <div class="tri-color-white"></div>
+    <div class="tri-color-green"></div>
+  </div>
+
+  <!-- Global Header / Navbar -->
+  <header class="header">
+    <div class="container header-container">
+      <a href="index.html" class="logo-wrapper">
+        <img src="assets/logo.svg" alt="Kitex Logo">
+      </a>
+      <button class="menu-btn" aria-label="Toggle Navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+          <li><a href="products.html"><i class="fas fa-crosshairs"></i> Drones</a></li>
+          <li class="active"><a href="contact.html"><i class="fas fa-shield-alt"></i> Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Page Hero Banner -->
+  <section class="page-hero" style="background-image: linear-gradient(0deg, var(--bg-dark), rgba(10, 12, 9, 0.65)), url('assets/training_service.png');">
+    <div class="container" style="width: 100%;">
+      <p class="page-hero-subtitle">SECURED COMMUNICATIONS</p>
+      <h1 class="page-hero-title">Command HQ</h1>
+    </div>
+  </section>
+
+  <!-- Contact Form & Info Grid -->
+  <section class="contact-section section-padding">
+    <div class="container grid-2">
+      <!-- Contact Info Column -->
+      <div class="contact-info-col">
+        <h2 class="section-title">Noida Facility</h2>
+        <p class="contact-desc">Kitex Aero Defense operations are centralized in Noida Sector 62. The facility houses our simulation design centers, aerodynamic modeling labs, and operations management rooms.</p>
+        
+        <div class="contact-card-list">
+          <!-- Card 1: Location -->
+          <div class="contact-info-card">
+            <div class="contact-icon-wrapper">
+              <i class="fas fa-map-marked-alt"></i>
+            </div>
+            <div class="contact-card-detail">
+              <h4>Operations Headquarters</h4>
+              <p>Noida Sector 62, Block C, Noida,</p>
+              <p>Uttar Pradesh, 201301, India</p>
+            </div>
+          </div>
+          
+          <!-- Card 2: Phone -->
+          <div class="contact-info-card">
+            <div class="contact-icon-wrapper">
+              <i class="fas fa-phone-alt"></i>
+            </div>
+            <div class="contact-card-detail">
+              <h4>Direct Defense Line</h4>
+              <p><a href="tel:+911202446200">+91 (120) 244-6200</a></p>
+              <p>Operational hours: 09:00 - 18:00 IST</p>
+            </div>
+          </div>
+          
+          <!-- Card 3: Email -->
+          <div class="contact-info-card">
+            <div class="contact-icon-wrapper">
+              <i class="fas fa-envelope-open-text"></i>
+            </div>
+            <div class="contact-card-detail">
+              <h4>Secure Inquiries</h4>
+              <p><a href="mailto:ops@kitex.in">ops@kitex.in</a></p>
+              <p>PGP Public Key available on request</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Secure Form Panel -->
+      <div class="panel-glass corner-decors">
+        <div class="form-title-decor">
+          <h3>Inquiry Transmission</h3>
+          <span>SECURE // AES-256</span>
+        </div>
+        
+        <form id="militaryContactForm" class="inquiry-form">
+          <!-- Name -->
+          <div class="form-group">
+            <label for="name" class="form-label">Full Name *</label>
+            <input type="text" id="name" class="form-input" placeholder="e.g. Vikram Singh" required>
+          </div>
+          
+          <!-- Rank -->
+          <div class="form-group">
+            <label for="rank" class="form-label">Military Rank / Title</label>
+            <input type="text" id="rank" class="form-input" placeholder="e.g. Major (Leave blank if civilian)">
+          </div>
+          
+          <!-- Email -->
+          <div class="form-group">
+            <label for="email" class="form-label">Secure Email *</label>
+            <input type="email" id="email" class="form-input" placeholder="e.g. v.singh@nic.in" required>
+          </div>
+
+          <!-- Phone -->
+          <div class="form-group">
+            <label for="phone" class="form-label">Secure Phone Link</label>
+            <input type="tel" id="phone" class="form-input" placeholder="e.g. +91 98765 43210">
+          </div>
+
+          <!-- Service Branch Selector -->
+          <div class="form-group form-group-full">
+            <label class="form-label">Service Wing / Sector</label>
+            <div class="branch-radio-group">
+              <div class="branch-radio-btn">
+                <input type="radio" id="branch-army" name="service" value="Indian Army" checked>
+                <label for="branch-army" class="branch-label">Indian Army</label>
+              </div>
+              <div class="branch-radio-btn">
+                <input type="radio" id="branch-navy" name="service" value="Indian Navy">
+                <label for="branch-navy" class="branch-label">Indian Navy</label>
+              </div>
+              <div class="branch-radio-btn">
+                <input type="radio" id="branch-airforce" name="service" value="Indian Air Force">
+                <label for="branch-airforce" class="branch-label">Air Force</label>
+              </div>
+            </div>
+          </div>
+
+          <!-- Message -->
+          <div class="form-group form-group-full">
+            <label for="message" class="form-label">Tactical Requirement Details *</label>
+            <textarea id="message" class="form-input" placeholder="Detail your operational environment, drone payload specifications, or training course requirements..." required></textarea>
+          </div>
+
+          <!-- Clearance warning -->
+          <div class="clearance-warning-box form-group-full">
+            <i class="fas fa-exclamation-triangle" style="margin-top: 2px;"></i>
+            <p><span>CONFIDENTIALITY NOTICE:</span> All submissions are encrypted. Sender terminal parameters (IP, browser agent) are logged for defense security audit purposes.</p>
+          </div>
+
+          <!-- Submit Button -->
+          <div class="form-group-full" style="text-align: right; margin-top: 1rem;">
+            <button type="submit" class="btn-tactical corner-decors">Transmit Signal</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Vector Grid HUD Map Section -->
+  <section class="map-section section-padding" style="background-color: var(--bg-darker); border-top: var(--border-tactical);">
+    <div class="container">
+      <div style="text-align: center; margin-bottom: 3rem;">
+        <p class="mono-text">TACTICAL VECTOR GRID</p>
+        <h2 class="section-title" style="margin-top: 0.5rem;">HQ Coordinates</h2>
+      </div>
+
+      <div class="map-hud-wrapper">
+        <!-- Telemetry Coordinates Box -->
+        <div class="map-hud-overlay">
+          <h4 class="map-hud-title">KITEX COMMAND HQ</h4>
+          <span class="map-hud-coords">SEC: Noida 62 // 28°37'42.2"N 77°22'36.8"E</span>
+          <div class="map-hud-desc">
+            <p><strong>Primary Operations:</strong> Heavy UAV Testing, Simulator Classrooms, Avionics Research Labs.</p>
+            <p style="color: var(--accent-gold);"><i class="fas fa-circle-check"></i> Satellite Uplink: Secure</p>
+          </div>
+        </div>
+
+        <!-- Custom HTML/CSS Radar & Road Grid Vector Map -->
+        <div class="map-canvas-grid">
+          <!-- Vector Road Lines -->
+          <div class="map-vector-roads">
+            <div class="map-road-h1"></div>
+            <div class="map-road-h2"></div>
+            <div class="map-road-v1"></div>
+            <div class="map-road-v2"></div>
+          </div>
+
+          <!-- Sector labels -->
+          <div class="map-sector-label label-sec62">SECTOR 62</div>
+          <div class="map-sector-label label-sec63">SECTOR 63</div>
+          <div class="map-sector-label label-sec59">SECTOR 59</div>
+          <div class="map-sector-label label-sec61">SECTOR 61</div>
+
+          <!-- Interactive targeting scope overlay -->
+          <div class="map-scope"></div>
+
+          <!-- HQ Coordinates Glowing Pin -->
+          <div class="map-pin-hq">
+            <div class="map-pin-pulse"></div>
+            <div class="map-pin-pulse-2"></div>
+            <div class="map-pin-dot"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Global Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-info">
+        <img src="assets/logo.svg" alt="Kitex Logo" class="footer-logo">
+        <p class="footer-desc">Kitex Aero Defense specializes in advanced military-grade drone systems (UAVs) engineered to defense specs, supporting surveillance, heavy cargo, and loitering strikes for Indian Armed Forces.</p>
+        <span class="footer-badge">ISO 9001:2015 // DEFENSE COMPLIANT</span>
+      </div>
+
+      <div class="footer-nav">
+        <h4 class="footer-title">Navigation</h4>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Tactical Fleet</a></li>
+          <li><a href="contact.html">Secure contact HQ</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-contact">
+        <h4 class="footer-title">Command Center</h4>
+        <ul class="footer-contact-info">
+          <li><i class="fas fa-map-marker-alt" style="color: var(--accent-gold);"></i> <span>Address:</span> Sector 62, Noida, Uttar Pradesh, 201301, India</li>
+          <li><i class="fas fa-envelope" style="color: var(--accent-gold);"></i> <span>Secured Email:</span> ops@kitex.in</li>
+          <li><i class="fas fa-phone-alt" style="color: var(--accent-gold);"></i> <span>Direct Line:</span> +91 (120) 244-6200</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>&copy; 2026 Kitex Aero Defense Systems. All Rights Reserved.</p>
+      <p style="color: var(--accent-gold);"><i class="fas fa-lock"></i> SECURED MILITARY CHANNEL // LEVEL 5 ACCESS</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

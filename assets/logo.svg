@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 120" width="100%" height="100%">
+  <!-- Definition of gradients and shadows -->
+  <defs>
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFD700" />
+      <stop offset="50%" stop-color="#D4AF37" />
+      <stop offset="100%" stop-color="#AA7C11" />
+    </linearGradient>
+    <linearGradient id="oliveGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#556B2F" />
+      <stop offset="100%" stop-color="#3B4E34" />
+    </linearGradient>
+  </defs>
+
+  <!-- Logo Icon: Futuristic shield & wings with "K" -->
+  <g transform="translate(10, 10)">
+    <!-- Wings outer shape -->
+    <path d="M 10,40 L 45,25 L 60,45 L 45,55 Z" fill="url(#goldGradient)" opacity="0.85" />
+    <path d="M 90,40 L 55,25 L 40,45 L 55,55 Z" fill="url(#goldGradient)" opacity="0.85" />
+    
+    <!-- Central Shield/Body -->
+    <path d="M 35,15 L 50,5 L 65,15 L 65,65 L 50,85 L 35,65 Z" fill="url(#oliveGradient)" stroke="url(#goldGradient)" stroke-width="2.5" />
+    
+    <!-- Stylized "K" inside the shield -->
+    <path d="M 45,25 L 45,60 M 45,42 L 56,28 M 45,45 L 57,60" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+    
+    <!-- Drone Propellers indicator (crosshairs) -->
+    <circle cx="50" cy="45" r="18" fill="none" stroke="url(#goldGradient)" stroke-width="1" stroke-dasharray="2 3" />
+  </g>
+
+  <!-- Company Name "KITEX" -->
+  <text x="120" y="65" font-family="'Montserrat', 'Arial Black', sans-serif" font-size="44" font-weight="900" fill="#FFFFFF" letter-spacing="6">
+    KITEX
+  </text>
+  
+  <!-- Subtitle "AERO DEFENSE" -->
+  <text x="122" y="88" font-family="'Inter', sans-serif" font-size="14" font-weight="600" fill="#D4AF37" letter-spacing="4">
+    MILITARY UAV SYSTEMS
+  </text>
+
+  <!-- Indian Tri-Color subtle accent bar -->
+  <g transform="translate(122, 98)">
+    <rect x="0" y="0" width="30" height="3" fill="#FF9933" />
+    <rect x="30" y="0" width="30" height="3" fill="#FFFFFF" />
+    <rect x="60" y="0" width="30" height="3" fill="#128807" />
+  </g>
+</svg>
