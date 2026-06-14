@@ -1,5 +1,5 @@
 /**
- * KITEX - Military UAV Systems
+ * KYTEX - Lets Reach The Sky
  * Main Interactive JS Script
  */
 

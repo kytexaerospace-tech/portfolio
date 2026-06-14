@@ -1,5 +1,5 @@
 /* 
-  KITEX - Military UAV Systems
+  KYTEX - Lets Reach The Sky
   Global Stylesheet & Design System
 */
 
@@ -945,7 +945,7 @@ h1, h2, h3, h4, h5, h6 {
 /* --- PRODUCT PAGE SPECIFICS --- */
 .page-hero {
   height: 350px;
-  background: linear-gradient(0deg, var(--bg-dark), rgba(10, 12, 9, 0.6)), url('../assets/kitex_hero.png') center/cover;
+  background: linear-gradient(0deg, var(--bg-dark), rgba(10, 12, 9, 0.6)), url('../assets/kytex_hero.png') center/cover;
   display: flex;
   align-items: flex-end;
   padding-bottom: 4rem;
